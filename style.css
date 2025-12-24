@@ -1,0 +1,43 @@
+table, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    height: 16vh;
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+}
+
+.logo{
+    background-image: url(ADV\ LOGO.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.last1{
+    text-align: left;
+    vertical-align: top;
+}
+
+.last2{
+    text-align: left;
+    vertical-align: top;
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  td {
+    padding: 8px;
+  } 
+}
+/* this media works when or if the 
+screen size is 768px or smaller the text
+sixe inside the table reduces and
+helps fits better on smaller screen
